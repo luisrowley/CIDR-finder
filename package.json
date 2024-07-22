@@ -1,0 +1,28 @@
+{
+  "name": "cidr-finder",
+  "version": "1.0.0",
+  "description": "Efficient CIDR lookup using a Trie data structure for matching IP address to a specific range.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisrowley/CIDR-finder.git"
+  },
+  "keywords": [
+    "networking"
+  ],
+  "author": "Luis De Benito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisrowley/CIDR-finder/issues"
+  },
+  "homepage": "https://github.com/luisrowley/CIDR-finder#readme",
+  "dependencies": {
+    "ipaddr.js": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11"
+  }
+}
